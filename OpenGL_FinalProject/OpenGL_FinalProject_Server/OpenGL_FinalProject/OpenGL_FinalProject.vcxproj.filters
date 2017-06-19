@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\FBX_Loader">
+      <UniqueIdentifier>{1dfd30ac-0298-40da-b06f-1a26dc720d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FBX_Loader">
+      <UniqueIdentifier>{53153705-dd00-4810-9d3a-2de5479b3320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Obj_Loader">
+      <UniqueIdentifier>{07fa25b1-31ad-4db4-8551-60116a44f707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Obj_Loader">
+      <UniqueIdentifier>{83e34eac-9edb-4d34-9c93-4f291809ef63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character">
+      <UniqueIdentifier>{50db90eb-0989-4174-988b-0a5589725758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character">
+      <UniqueIdentifier>{5589647a-ad03-41a0-a18b-c8aa72ef037b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TinyXML">
+      <UniqueIdentifier>{1c1be5fd-36db-4b27-9c3f-17dc46f827c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TinyXML">
+      <UniqueIdentifier>{19bf818d-0178-4bf9-95aa-459b804be27a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBX_Loader\Common.h">
+      <Filter>Header Files\FBX_Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="FBX_Loader\DrawScene.h">
+      <Filter>Header Files\FBX_Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="FBX_Loader\FbxMod.h">
+      <Filter>Header Files\FBX_Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="FBX_Loader\GetPosition.h">
+      <Filter>Header Files\FBX_Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="FBX_Loader\GlFunctions.h">
+      <Filter>Header Files\FBX_Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="FBX_Loader\SceneCache.h">
+      <Filter>Header Files\FBX_Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="FBX_Loader\targa.h">
+      <Filter>Header Files\FBX_Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Loader\glm.h">
+      <Filter>Header Files\Obj_Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketClient .h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Akali.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalProject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Alistar.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Diana.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectCharacter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shen.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Leona.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>Header Files\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>Header Files\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Malphite.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL_FinalProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBX_Loader\Common.cpp">
+      <Filter>Source Files\FBX_Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="FBX_Loader\DrawScene.cpp">
+      <Filter>Source Files\FBX_Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="FBX_Loader\FbxMod.cpp">
+      <Filter>Source Files\FBX_Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="FBX_Loader\GetPosition.cpp">
+      <Filter>Source Files\FBX_Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="FBX_Loader\GlFunctions.cpp">
+      <Filter>Source Files\FBX_Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="FBX_Loader\SceneCache.cpp">
+      <Filter>Source Files\FBX_Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="FBX_Loader\targa.cpp">
+      <Filter>Source Files\FBX_Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Loader\glm.cpp">
+      <Filter>Source Files\Obj_Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Akali.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Alistar.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Diana.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Shen.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Leona.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCharacter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>Source Files\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>Source Files\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>Source Files\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>Source Files\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Malphite.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="OpenGL_FinalProject.res">
+      <Filter>Resource Files</Filter>
+    </Resource>
+  </ItemGroup>
+</Project>
